@@ -1,3 +1,3 @@
 # sizes-webextension
 
-Webextention to check images sizes attribute
+Webextension to check images sizes attribute
