@@ -1,0 +1,15 @@
+{
+  "name": "sizes",
+  "version": "1.0.0",
+  "description": "extension to check sizes attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ryuran/parse-sizes": "github:ryuran/parse-sizes#master",
+    "webextension-polyfill": "^0.3.1"
+  }
+}
