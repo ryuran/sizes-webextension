@@ -1,9 +1,9 @@
+const browser = require('webextension-polyfill');
+
 browser.browserAction.onClicked.addListener(() => {
   browser.tabs.executeScript(null, {code: `typeof window.imagesSizes !== 'undefined';`}).then((result) => {
     if (result[0] !== true) {
-      browser.tabs.executeScript(null, {file: "node_modules/@ryuran/parse-sizes/index.js"}).then(() => {
-        browser.tabs.executeScript(null, {file: "index.js"});
-      });
+      browser.tabs.executeScript(null, {file: 'scripts/imagesSizes.js'});
       return;
     }
 
