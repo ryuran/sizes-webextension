@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "extension to check sizes attributes",
   "main": "index.js",
+  "homepage": "https://github.com/ryuran/sizes-webextension#readme",
+  "bugs": {
+    "url" : "https://github.com/owner/project/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "dist": "web-ext build --source-dir ./build/",
     "start:firefox": "web-ext run --source-dir ./build/"
   },
-  "author": "",
+  "author": {
+    "name" : "Yvain Liechti",
+    "email" : "ryuran@gmail.com",
+    "url" : "https://ryuran.info/"
+  },
   "license": "MIT",
   "devDependencies": {
     "@ryuran/parse-sizes": "github:ryuran/parse-sizes#master",
