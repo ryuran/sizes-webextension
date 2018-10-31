@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
+    "dist": "web-ext build --source-dir ./build/",
     "start:firefox": "web-ext run --source-dir ./build/"
   },
   "author": "",

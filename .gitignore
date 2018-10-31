@@ -20,3 +20,4 @@ node_modules/
 
 # buided scripts
 build/scripts
+web-ext-artifacts/
