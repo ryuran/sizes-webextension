@@ -1,11 +1,11 @@
 {
   "name": "sizes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "extension to check sizes attributes",
   "main": "index.js",
   "homepage": "https://github.com/ryuran/sizes-webextension#readme",
   "bugs": {
-    "url" : "https://github.com/owner/project/issues"
+    "url": "https://github.com/owner/project/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,9 +14,9 @@
     "start:firefox": "web-ext run --source-dir ./build/"
   },
   "author": {
-    "name" : "Yvain Liechti",
-    "email" : "ryuran@gmail.com",
-    "url" : "https://ryuran.info/"
+    "name": "Yvain Liechti",
+    "email": "ryuran@gmail.com",
+    "url": "https://ryuran.info/"
   },
   "license": "MIT",
   "devDependencies": {
